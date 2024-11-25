@@ -247,9 +247,7 @@
     color: aliceblue;
   }
 
-
   /* styling technologies */
-
   .technologies {
     display: flex;
     flex-direction: column;
