@@ -384,7 +384,6 @@
   }
 }
 
-
 /* describing the media query for tablet screen  */
 @media (min-width: 769px) and (max-width: 1024px) {
   .mobile_menu {
