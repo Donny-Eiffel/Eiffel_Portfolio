@@ -22,18 +22,18 @@ PERSONAL WEBSITE
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
+  - [Deployment](#deployment    )
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Hello Codegisoft Academy <a name="about-project"></a>
+# 📖 Eiffel_portfolio <a name="about-project"></a>
 
 This is the first technical Codegisoft Academy project it tests more on Git, GitHub, GitHub Workflow and Linters.
 
-*[Hello-Codegisoft Academy]* is a HTML CSS project
+*[Eiffel_Portfolio]* is a HTML CSS project
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -128,3 +128,4 @@ I will like to thank Codegisoft Academy and all the students i've collaborated w
 ## 📝 License <a name="license"></a>
 
 This project is [LICENSE](LICENSE.md) licensed.
+https://vercel.com/donny-eiffels-projects/eiffel-portfolio

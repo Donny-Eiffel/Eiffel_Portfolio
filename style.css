@@ -368,11 +368,13 @@
     background-color: #fff;
     width: 100%;
     height: 100%;
+    padding: 20px;
   }
 
   .desktop_menu.active ul {
     display: flex;
     color: #172b4d;
+    list-style: none;
     flex-direction: column;
     gap: 20px;
   }
@@ -381,7 +383,24 @@
     list-style: none;
     text-decoration: none;
     color: #3a4a42;
+    font-size: 24px;
   }
+  .mobile_menu.active p{
+    padding: 1px 10px;
+  }
+  .mobile_menu.active p:nth-child(1){
+rotate: 45deg;
+top: 2px;
+position: relative;
+  }
+  .mobile_menu.active p:nth-child(2){
+    opacity: 0;
+      }
+      .mobile_menu.active p:nth-child(3){
+      rotate: -45deg;
+      top: -8px;
+      position: relative;
+          }
 }
 
 /* describing the media query for tablet screen  */
