@@ -389,18 +389,18 @@
     padding: 1px 10px;
   }
   .mobile_menu.active p:nth-child(1){
-rotate: 45deg;
-top: 2px;
-position: relative;
-  }
+    rotate: 45deg;
+    top: 2px;
+    position: relative;
+}
   .mobile_menu.active p:nth-child(2){
     opacity: 0;
-      }
-      .mobile_menu.active p:nth-child(3){
+}
+  .mobile_menu.active p:nth-child(3){
       rotate: -45deg;
       top: -8px;
       position: relative;
-          }
+}
 }
 
 /* describing the media query for tablet screen  */

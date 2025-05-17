@@ -67,3 +67,5 @@ const projectCards = [
         link:"#"
     },
 ];
+
+//function to create a card
