@@ -17,6 +17,82 @@
     display: none;
   }
 
+  .modal{
+    display: flex;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background-color: #2f6e1c;
+    flex-direction: column;
+  }
+
+  .modalcontent{
+    width: 375px;
+    height: 600px;
+    background-color: #fff;
+  }
+  .closebutton{
+    margin-top: 18px;
+    border: none;
+    width:30px;
+    height: 30px;
+    background-color: #36b37e;
+    border-radius: 2px;
+    color: aliceblue;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer
+  }
+
+  .modalImage{
+    width: 100%;
+    height: auto;  
+    border-radius: 8px; /* Rounded corners */
+  }
+
+.modalcontent h3 {
+    font-size: 24px;
+    color: #333; 
+    padding: 25px;
+}
+
+#modaltechnologies {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+#modaltechnologies {
+    display: flex;               /* Use flexbox for alignment */
+    flex-wrap: wrap;            /* Allow wrapping to the next line if necessary */
+    padding: 0;                 /* Remove default padding */
+    list-style-type: none;      /* Remove bullet points */
+    margin: 10px 0;             /* Space above and below the list */
+}
+
+#modaltechnologies li {
+    margin-right: 15px;         /* Space between items */
+    background-color: #e0e0e0;  /* Background color for tech items */
+    border-radius: 5px;         /* Rounded corners */
+    padding:5px 10px;          /* Padding for items */
+    white-space: nowrap;         /* Prevent text from wrapping */
+}
+
+
+
+.modalcontent p {
+  padding: 20px;
+  margin-top: 15px; /* Space above description */
+    color: #666; /* Description color */
+}
+
+
+
+
   .mobile_menu {
     display: flex;
     flex-direction: column;
@@ -413,6 +489,89 @@
     margin: 10px 15px;
   }
 
+   .closebutton{
+    margin-top: 18px;
+    border: none;
+    width:30px;
+    height: 30px;
+    background-color: #36b37e;
+    border-radius: 2px;
+    color: aliceblue;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer
+  }
+
+
+  
+   .modal{
+    display: flex;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2f6e1c;
+    flex-direction: column;
+  } 
+
+  /* General styles (for desktop and mobile) */
+
+
+.modalImage{
+    width: 70%;
+    height: auto;  
+    border-radius: 8px;  
+  }
+
+.modalcontent h3 {
+    font-size: 24px;
+    color: #333; 
+    padding: 25px;
+}
+
+    .modalcontent {
+        padding: 30px;                
+        max-width: 80%;              
+    }
+
+    .modalcontent h3 {
+      
+    margin: 15px 0;
+    font-size: 28px;              /* Larger title for tablets */
+    color: #333;                  /* Title color */
+    text-align: center;           /* Center the heading text */
+
+    }
+
+    #modaltechnologies {
+    display: flex;                  /* Use flexbox for alignment */
+    justify-content: center;        /* Center items horizontally */
+    flex-wrap: wrap;               /* Allow wrapping if necessary */
+    list-style-type: none;         /* Remove bullet points */
+    padding: 0;                    /* Remove default padding */
+    margin: 15px 0;                /* Space above and below the list */
+    }
+
+    #modaltechnologies li {
+        margin: 5px 15px;           /* Add space between items */
+        font-size: 16px;            /* Font size for items */
+        padding: 10px 15px;         /* Padding for buttons */
+        background-color: grey;                  
+        color: #fff;                /* Button text color */
+        border-radius: 5px;         /* Rounded corners */
+        cursor: pointer;             /* Pointer cursor on hover */
+        transition: background-color 0.3s; /* Smooth transition */
+    }
+    
+
+    .modalcontent p {
+        font-size: 16px;             /* Increase font size for description */
+    }
+
+
   .desktop_menu {
     display: none;
   }
@@ -782,6 +941,96 @@
     gap: 20px;
     list-style: none;
   }
+
+  
+  .modal{
+    display: flex;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2f6e1c;
+    flex-direction: column;
+  }
+  /* General styles (for mobile and tablet) */
+.modalcontent {
+    padding: 20px;
+}
+
+  
+
+     .closebutton{
+    margin-top: 18px;
+    border: none;
+    width:30px;
+    height: 30px;
+    background-color: #36b37e;
+    border-radius: 2px;
+    color: aliceblue;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer
+  }
+
+  .modalcontent {
+    padding: 20px;
+    margin: 30px auto;              /* Move modal content slightly up */
+    max-width: 600px;               /* Set a maximum width for the modal */
+    background-color: #fff;         /* Background color for modal */
+    border-radius: 10px;            /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* General styles for buttons */
+#modaltechnologies {
+    display: flex;                  /* Use flexbox for alignment */
+    justify-content: center;        /* Center items horizontally */
+    flex-wrap: wrap;               /* Allow wrapping if necessary */
+    list-style-type: none;         /* Remove bullet points */
+    padding: 0;                    /* Remove default padding */
+    margin: 15px 0;                /* Space above and below the list */
+}
+
+#modaltechnologies li {
+    margin: 0 10px;                /* Space between items */
+    color: black;            /* Button text color */
+    background-color: gray;
+    border-radius: 5px;            /* Rounded corners */
+    padding: 10px 15px;            /* Padding for buttons */
+    cursor: pointer;                /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+/* Button hover effect */
+#modaltechnologies li:hover {
+    background-color: #0056b3;      /* Darker shade on hover */
+}
+
+.modalcontent h3 {
+    margin: 15px 0;
+    font-size: 24px;
+    color: #333;                    /* Title color */
+    text-align: center;
+}
+
+.modalcontent p {
+    margin-top: 15px;               /* Space above description */
+    color: #666;                    /* Description color */
+}
+
+     .modalImage{
+    width: 100%;
+    height: auto;  
+    border-radius: 8px; 
+     display: block;               /*Make image a block element */
+    margin: 20px auto;            /* Center the image horizontally with margin */
+    max-width: 200px;            /* Set maximum width to keep it small */
+    border-radius: 5px;           /* Optional: add rounded corners */
+  }
+  
 
   .desktop_menu ul li a {
     text-decoration: none;
