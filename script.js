@@ -143,7 +143,7 @@ document.body.appendChild(modal);
         modal.remove()
         window.removeEventListener("click",  outsideClick);
       }
-    }
+    } 
     function outsideClick(event) {
       if (event.target === event.currentTarget) {
         closeModal();
