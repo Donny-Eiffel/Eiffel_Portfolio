@@ -110,7 +110,7 @@ function openModal(project) {
 
   const closeButton = document.createElement('span');
   closeButton.classList.add('closebutton');
-  closeButton.innerHTML = '&times;';
+  closeButton.innerHTML = '&times;'
   closeButton.addEventListener('click', closeModal); // Call closeModal correctly
   modalContent.appendChild(closeButton);
 
